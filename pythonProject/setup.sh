@@ -1,15 +1,15 @@
 #!/bin/bash
+
 # Create the Streamlit configuration directory
 mkdir -p ~/.streamlit/
 
-# Create the Streamlit configuration file
-echo "\
-[server]\n\
-port = \$PORT\n\
-enableCORS = false\n\
-headless = true\n\
-\n\
-" > ~/.streamlit/config.toml
+# Create or overwrite the Streamlit configuration file
+cat <<EOF > ~/.streamlit/config.toml
+[server]
+port = $PORT
+enableCORS = false
+headless = true
+EOF
 
 # Install required packages
 pip install -r requirements.txt
