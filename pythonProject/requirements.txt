@@ -1,3 +1,6 @@
 streamlit
 nltk
 sklearn
+numpy
+pandas
+scikit-learn
