@@ -95,9 +95,9 @@ To deploy this application on Render:
 5. Deploy the service and Render will handle the build and start process.
 
 ## ScreenShots
-![Alt text](/images/first.png)
-![Alt text](/images/2.png)
-![Alt text](/images/3.png)
+![Alt text](pythonProject/images/first.png)
+![Alt text](pythonProject/images/2.png)
+![Alt text](pythonProject/images/3.png)
 
 
 
